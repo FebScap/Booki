@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/6e434395f0.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Booki</title>
   </head>
 
@@ -41,14 +41,16 @@
 
         <!--Formulaire de recherche-->
         <form class="search">
-          <i class="fas fa-map-marker-alt" id="point"></i>
-          <input
-            type="search"
-            id="searchinput"
-            name="searchinput"
-            value="Marseille, France"
-          />
-          <input type="submit" id="searchsend" value="Rechercher" />
+          <div class="search__border">
+            <i class="fas fa-map-marker-alt point"></i>
+            <input
+              type="search"
+              class="searchinput"
+              name="searchinput"
+              value="Marseille, France"
+            />
+          </div>
+          <input type="submit" class="searchsend" value="Rechercher" />
         </form>
 
         <!--Filtres-->

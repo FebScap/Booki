@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  box-sizing: border-box;
+}
+
 /*Police*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -11,7 +20,7 @@
 /* Main */
 body {
   background: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: black;
   width: auto;
   margin: auto;
@@ -88,39 +97,45 @@ section {
 }
 
 .search {
-  width: 400px;
   display: flex;
   flex-direction: row;
   align-items: stretch;
+}
+
+.search__border {
+  display: flex;
   border: #f2f2f2 1px solid;
   border-radius: 15px;
 }
 
-#point,
-#searchinput,
-#searchsend {
+.searchinput,
+.searchsend {
   display: flex;
   padding-top: 15px;
   padding-bottom: 15px;
   justify-content: center;
 }
 
-#point {
-  width: 20%;
+.point {
+  width: 52px;
+  height: 52px;
   background-color: #f2f2f2;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#searchinput {
+.searchinput {
   border: none;
   font-weight: bold;
   font-size: 1.2em;
   padding-inline-start: 15px;
 }
 
-#searchsend {
-  width: 40%;
+.searchsend {
+  padding: 0 15px;
   border: none;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -138,8 +153,13 @@ section {
   align-items: center;
 }
 
-.filtre a:hover {
+.filtre__box:hover {
+  border-color: silver;
   color: #0065fc;
+}
+
+.filtre__box a {
+  color: inherit;
 }
 
 .filtre__box {
@@ -162,12 +182,13 @@ section {
 
 .filtre__box i {
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   color: #0065fc;
   border-radius: 60px;
   background-color: #deebff;
-
-  padding: 23px;
+  width: 65px;
+  height: 65px;
   margin: -10px;
 }
 
@@ -198,20 +219,23 @@ section {
 .hosting {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   align-items: stretch;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .hosting__box {
   border-radius: 20px;
   background-color: #f2f2f2;
   padding: 30px;
-  width: 65%;
+  width: 420px;
+  min-width: 420px;
 
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  flex-grow: 1;
 }
 
 .hosting__text,
@@ -223,8 +247,7 @@ section {
   border-radius: 20px;
   background-color: #f2f2f2;
   padding: 30px;
-  width: 25%;
-  margin-left: 10px;
+  width: 420px;
 }
 
 .popular__title {
@@ -284,7 +307,6 @@ section {
   justify-content: flex-start;
   align-content: center;
   border-radius: 20px;
-
 }
 
 .popular__box {
@@ -293,7 +315,7 @@ section {
 }
 
 .popular__box a {
-    display: flex;
+  display: flex;
 }
 
 .popular__box img {
@@ -338,7 +360,6 @@ section {
 }
 
 .activity__box {
-  border: 1px solid #f2f2f2;
   box-shadow: 0px 0px 8px 0px #d3d3d3;
   padding: 0;
 }
