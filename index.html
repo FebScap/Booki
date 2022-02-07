@@ -9,6 +9,7 @@
     ></script>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="phone.css" />
     <title>Booki</title>
   </head>
 
@@ -17,7 +18,7 @@
     <header>
       <!--Logo-->
       <figure class="logo">
-        <img class="logo" src="img/logo/Booki.png" alt="Logo Booki" />
+        <img class="logo__size" src="img/logo/Booki.png" alt="Logo Booki" />
       </figure>
 
       <!--Menu-->
@@ -51,38 +52,43 @@
             />
           </div>
           <input type="submit" class="searchsend" value="Rechercher" />
+          <button type="submit" class="searchsend__littlescreen">
+            <i class="fas fa-search searchsend__icon"></i>
+          </button>
         </form>
 
         <!--Filtres-->
         <div class="filtre">
-          <h2>Filtres</h2>
+          <h2 class="filtre__h2">Filtres</h2>
 
-          <div class="filtre__box">
-            <a href="#" class="filtre__link">
-              <i class="filtre__icon fas fa-money-bill-wave"></i>
-              <p>Économique</p>
-            </a>
-          </div>
+          <div class="filtre__withouttitle">
+            <div class="filtre__box">
+              <a href="#" class="filtre__link">
+                <i class="filtre__icon fas fa-money-bill-wave"></i>
+                <p>Économique</p>
+              </a>
+            </div>
 
-          <div class="filtre__box">
-            <a href="#" class="filtre__link">
-              <i class="filtre__icon fas fa-child"></i>
-              <p>Familial</p>
-            </a>
-          </div>
+            <div class="filtre__box">
+              <a href="#" class="filtre__link">
+                <i class="filtre__icon fas fa-child"></i>
+                <p>Familial</p>
+              </a>
+            </div>
 
-          <div class="filtre__box">
-            <a href="#" class="filtre__link">
-              <i class="filtre__icon fas fa-heart"></i>
-              <p>Romantique</p>
-            </a>
-          </div>
+            <div class="filtre__box">
+              <a href="#" class="filtre__link">
+                <i class="filtre__icon fas fa-heart"></i>
+                <p>Romantique</p>
+              </a>
+            </div>
 
-          <div class="filtre__box">
-            <a href="#" class="filtre__link">
-              <i class="filtre__icon fas fa-dog"></i>
-              <p>Animaux autorisés</p>
-            </a>
+            <div class="filtre__box">
+              <a href="#" class="filtre__link">
+                <i class="filtre__icon fas fa-dog"></i>
+                <p>Animaux autorisés</p>
+              </a>
+            </div>
           </div>
         </div>
 

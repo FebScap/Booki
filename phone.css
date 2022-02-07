@@ -1,0 +1,93 @@
+/*Petits écrans*/
+@media all and (max-width: 768px) {
+  /*Global*/
+  main {
+    margin: 5%;
+  }
+
+  section {
+    margin: 0;
+  }
+
+  /*Changement header*/
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logo__size {
+    width: 80px;
+  }
+
+  /*Changement Nav*/
+  nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    width: 100%;
+
+    border-bottom: 3px solid silver;
+  }
+
+  nav a {
+    padding-bottom: 13px;
+  }
+
+  nav a:hover {
+    color: #0065fc;
+    border-bottom: 3px solid #0065fc;
+    border-top: none;
+  }
+
+  /*Search*/
+  .searchsend {
+    display: none;
+  }
+
+  .searchsend__littlescreen,
+  .searchsend__icon {
+    display: flex;
+  }
+
+  .searchsend__littlescreen {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0065fc;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .searchsend__icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*Filtres*/
+  .filtre {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filtre__withouttitle {
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
