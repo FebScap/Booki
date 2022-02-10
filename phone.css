@@ -1,12 +1,8 @@
 /*Petits écrans*/
 @media all and (max-width: 768px) {
   /*Global*/
-  main {
-    margin: 5%;
-  }
-
   section {
-    margin: 0;
+    margin: 5%;
   }
 
   /*Changement header*/
@@ -32,6 +28,7 @@
   }
 
   nav {
+    justify-content: space-between;
     padding-top: 0px;
     padding-bottom: 5px;
     width: 100%;
@@ -41,6 +38,7 @@
 
   nav a {
     padding-bottom: 22px;
+    width: 100%;
   }
 
   nav a:hover {
@@ -50,6 +48,9 @@
   }
 
   /*Search*/
+  .searchinput {
+  }
+
   .searchsend {
     display: none;
   }
@@ -87,7 +88,46 @@
   }
 
   .filtre__withouttitle {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+
   }
+
+  /*Popular*/
+    .popular {
+      width: 100%;
+      border-radius: 0;
+    }
+
+    /*Hosting*/
+    .hosting {
+      flex-direction: column-reverse;
+      align-content: center;
+
+    }
+
+    .hosting__box {
+      width: 80%;
+      min-width: 0;
+      margin: 5%;
+      background-color: white;
+    }
+
+    .lodging {
+      flex-direction: column;
+    }
+
+    .lodging__fig {
+      width: 80%;
+    }
+
+    /*Activity*/
+    .activity__storage {
+      flex-direction: column;
+    }
+
+    .activity__box {
+      width: 90%;
+      align-content: center;
+    }
 }
