@@ -147,7 +147,8 @@ section {
   font-weight: 500;
 }
 
-.searchsend__littlescreen, .searchsend__icon {
+.searchsend__littlescreen,
+.searchsend__icon {
   display: none;
 }
 
@@ -237,7 +238,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
-  align-items: stretch;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 40px;
 }
@@ -245,9 +246,9 @@ section {
 .hosting__box {
   border-radius: 20px;
   background-color: #f2f2f2;
-  padding: 30px;
   width: 420px;
   min-width: 420px;
+  min-height: 675px;
 
   display: flex;
   flex-direction: column;
@@ -265,6 +266,13 @@ section {
   background-color: #f2f2f2;
   padding: 30px;
   width: 420px;
+  height: 675px;
+}
+
+.popular__storage {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
 }
 
 .popular__title {
@@ -312,12 +320,11 @@ section {
 }
 
 /*Box*/
-
 .lodging__fig,
 .activity__box,
 .popular__box {
   display: flex;
-  width: 28%;
+  width: 250px;
   margin: 20px;
   padding: 5px;
   background-color: white;
@@ -327,8 +334,8 @@ section {
 }
 
 .popular__box {
-  width: 80%;
-  height: 25%;
+  width: 345px;
+  height: 145px;
 }
 
 .popular__box a {
@@ -356,6 +363,18 @@ section {
 .popular__box__stars {
   display: flex;
   flex-direction: row;
+}
+
+.popular__box__text h5,
+.popular__box__text h2,
+.lodging__textbox h5,
+.lodging__textbox h2 {
+  margin: 5px 0;
+}
+
+.popular__box__text .popular__box__stars {
+  align-items: flex-end;
+  padding-top: 35px;
 }
 
 .lodging__img,
