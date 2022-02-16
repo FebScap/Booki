@@ -33,6 +33,15 @@ h2 {
   font-weight: bold;
 }
 
+h5 {
+  font-weight: lighter;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
 /*Entête*/
 header {
   display: flex;
@@ -384,14 +393,17 @@ section {
 footer {
   display: flex;
   background-color: #f2f2f2;
-  align-content: space-around;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  flex-direction: row;
+  padding-left: 50px;
 }
 
 footer a {
   text-decoration: none;
   color: black;
+}
+
+.footer__box {
+  max-width: 450px;
+  flex-grow: 1;
 }
