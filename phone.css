@@ -182,7 +182,7 @@
   .lodging__fig {
     width: 325px;
     height: 200px;
-    box-shadow: 0px 0px 8px 0px #d3d3d3;
+    box-shadow: 0px 0px 15px 0px #d3d3d3;
   }
 
   .lodging__textbox {
@@ -190,6 +190,10 @@
   }
 
   /*Activity*/
+  .activity {
+    margin-bottom: 50px;
+  }
+
   .activity h1 {
     margin: 15px 20px;
   }
