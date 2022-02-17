@@ -163,7 +163,7 @@
   }
 
   .hosting__box {
-    width: auto;
+    width: 100%;
     min-width: 0;
     background-color: white;
     padding: 0;
@@ -171,6 +171,8 @@
 
   .lodging {
     flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .lodging img {
@@ -194,6 +196,7 @@
 
   .activity__storage {
     flex-direction: column;
+    align-items: center;
   }
 
   .activity__box {
