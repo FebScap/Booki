@@ -15,9 +15,9 @@ presentation:
 
 # Projet 2
 
-## Reservia
+## Booki
 
-<img src="ressources/Desktop-1.png" style="height:100vh;">
+<img src="img/logo/Booki.png">
 
 <!-- slide -->
 
