@@ -2,6 +2,6 @@
 
 **Version hébergée**: https://febscap.github.io/Booki/
 
-**Presentation**: https://ypetremann.github.io/oc-p1/presentation.html
+**Presentation**: https://febscap.github.io/Booki/presentation.html
 
 **Code source**: https://github.com/FebScap/Booki
