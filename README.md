@@ -1,4 +1,4 @@
-# OpenDeclic P2 : Intégrer la maquette du site d'une agence web
+# Développeur Web P2 : Transformez une maquette en site web avec HTML et CSS
 
 **Version hébergée**: https://febscap.github.io/Booki/
 
