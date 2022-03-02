@@ -58,6 +58,10 @@ header {
   margin-left: 4%;
 }
 
+.logo__size {
+  height: 50px;
+}
+
 /*Nav*/
 nav {
   padding-top: 30px;
@@ -223,14 +227,20 @@ section {
 }
 
 .help__icon {
-  margin-right: 5px;
-  padding: 0.6em 0.8em;
-  text-align: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #0065fc;
-  border: 1px #deebff solid;
   border-radius: 60px;
-  font-size: 0.6em;
+  border: 1px #deebff solid;
+  width: 20px;
+  height: 20px;
+  margin: -10px;
+  font-size: 0.5em
+}
+
+.help p {
+  margin-left: 15px;
 }
 
 /*Hosting*/
@@ -249,6 +259,7 @@ section {
   width: 420px;
   min-width: 420px;
   min-height: 675px;
+  padding-top: 30px;
 
   display: flex;
   flex-direction: column;
@@ -369,6 +380,8 @@ section {
 .popular__box__stars {
   display: flex;
   flex-direction: row;
+  height: 100%;
+  padding-bottom: 5px;
 }
 
 .popular__box__text h5,
@@ -395,6 +408,10 @@ section {
 }
 
 /*Activités*/
+
+.activity h1 {
+  padding-left: 30px;
+}
 
 .activity__storage {
   width: 100%;

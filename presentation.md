@@ -5,9 +5,8 @@ presentation:
   theme: beige.css
   help: true
   controls: true
-  progress: true
   history: true
-  embedded: true
+  progress: true
   mouseWheel: true
 ---
 
@@ -30,7 +29,6 @@ presentation:
 - Tester le résultat sur divers navigateurs
   - Redéfinition de la structure **HTML** au cas par cas
   - Effectuer les ajustements **CSS** au cas par cas
-- Création du **JS**.
 
 <!-- slide -->
 
