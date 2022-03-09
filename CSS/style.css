@@ -416,6 +416,8 @@ section {
 .activity__global {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
 .activity__bigstorage {
@@ -434,8 +436,8 @@ section {
 .activity__box {
   box-shadow: 0px 0px 8px 0px #d3d3d3;
   padding: 0;
-  max-width: 350px;
-  flex-grow: 1;
+  min-width: 250px;
+  width: 290px;
 }
 
 .activity__box--fat img {
@@ -488,7 +490,7 @@ footer a {
   flex-grow: 1;
 }
 
-@media all and (max-width: 1251px) {
+@media all and (max-width: 1425px) {
   .activity__global {
     flex-direction: column;
   }
