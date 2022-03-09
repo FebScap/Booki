@@ -413,6 +413,17 @@ section {
   padding-left: 30px;
 }
 
+.activity__global {
+  display: flex;
+  flex-direction: row;
+}
+
+.activity__bigstorage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .activity__storage {
   width: 100%;
   display: flex;
@@ -475,4 +486,10 @@ footer a {
 .footer__box {
   max-width: 450px;
   flex-grow: 1;
+}
+
+@media all and (max-width: 1251px) {
+  .activity__global {
+    flex-direction: column;
+  }
 }
