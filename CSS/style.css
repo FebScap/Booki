@@ -435,6 +435,18 @@ section {
   height: 430px;
 }
 
+.activity__box--frioul, .activity__box--pomegues {
+  height: auto;
+}
+
+.activity__box--frioul img {
+  height: 110px;
+}
+
+.activity__box--pomegues img {
+  height: 190px;
+}
+
 .activity__group {
   height: 100%;
   display: flex;
