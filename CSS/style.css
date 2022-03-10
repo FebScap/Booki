@@ -257,8 +257,6 @@ section {
   border-radius: 20px;
   background-color: #f2f2f2;
   width: 420px;
-  min-width: 420px;
-  min-height: 675px;
   padding-top: 30px;
 
   display: flex;
